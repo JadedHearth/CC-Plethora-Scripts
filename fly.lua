@@ -91,6 +91,7 @@ local function controls()
 
     if key == keys.k then
         stop = true
+        canvas.clear()
         print("K pressed, stopping program...")
     elseif key == keys.space and not held then    
         local spaceTime = os.clock()
